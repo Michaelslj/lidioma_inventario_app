@@ -1,7 +1,7 @@
 # Inventario Pro - Sistema de Gestión de Inventario
 
 ## 1. Descripción de la Aplicación
-**Inventario Pro** es una aplicación móvil avanzada diseñada para el control y gestión de stock empresarial. Desarrollada con **Kotlin** y **Jetpack Compose**, ofrece una experiencia de usuario fluida con un diseño "Dark Pro". La aplicación permite a las empresas gestionar productos, categorías, proveedores y procesos de compra, con un sistema de roles integrado que protege las acciones administrativas.
+**Inventario** es una aplicación móvil avanzada diseñada para el control y gestión de stock empresarial. Desarrollada con **Kotlin** y **Jetpack Compose**, ofrece una experiencia de usuario fluida con un diseño "Dark Pro". La aplicación permite a las empresas gestionar productos, categorías, proveedores y procesos de compra, con un sistema de roles integrado que protege las acciones administrativas.
 
 **Características principales:**
 *   **Gestión Multicanal:** CRUD completo para productos, categorías y proveedores.
@@ -34,13 +34,12 @@ Para probar todas las funcionalidades administrativas (crear, editar, borrar):
 
 | Rol | Usuario | Contraseña |
 | :--- | :--- | :--- |
-| **Administrador** | `maicol` | *(Usa la contraseña de tu superusuario)* |
+| **Administrador** | maicol | maicol123 |
 | **Usuario Estándar** | *(Cualquiera)* | *(Registrarse directamente en la app)* |
 
 ---
 
 ## 5. Capturas de Pantalla
-> *Las imágenes se encuentran en la carpeta `/docs/screenshots/` del repositorio.*
 1.  **Login & Registro:** Pantalla de acceso con validación de credenciales.
 2.  **Lista de Stock:** Visualización de productos con alertas de stock bajo.
 3.  **Movimientos:** Historial de entradas y salidas de bodega.
@@ -101,6 +100,7 @@ Content-Type: application/json
 
 ## 9. Instrucciones para Ejecutar la App
 1.  Descargar el código fuente o clonar el repositorio.
+git clone https://github.com/Michaelslj/lidioma_inventario_app.git
 2.  Abrir **Android Studio** y seleccionar "Open Project".
 3.  Esperar a que Gradle descargue las dependencias (Sync).
 4.  En la parte superior, seleccionar un dispositivo (Emulador o Físico).
@@ -108,4 +108,4 @@ Content-Type: application/json
 6.  La app se instalará e iniciará en la pantalla de Login.
 
 ---
-**Desarrollado para el Proyecto de Inventario - 2024**
+**Desarrollado para el Proyecto de Inventario**
